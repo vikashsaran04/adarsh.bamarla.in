@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bamarla.in | बामरला ग्राम पोर्टल (बाड़मेर, राजस्थान)</title>
+    
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="bamarla.in | बामरला ग्राम पोर्टल (बाड़मेर, राजस्थान)">
+    <meta name="description" content="यह डोमेन bamarla.in बामरला गांव (बाड़मेर, राजस्थान) के नाम पर रिज़र्व है। संपर्क प्रतिनिधि: विकास कुमार (8529326036 / vikashkumar823981@gmail.com)। वेबसाइट निर्माणधीन है।">
+    <meta name="keywords" content="bamarla, bamarla.in, बामरला, बाड़मेर, Barmer, Rajasthan, Gram Panchayat, Vikash Kumar">
+    <meta name="author" content="Vikash Kumar">
+
+    <!-- Open Graph / Facebook / WhatsApp Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bamarla.in/">
+    <meta property="og:title" content="bamarla.in | बामरला ग्राम पोर्टल (बाड़मेर, राजस्थान)">
+    <meta property="og:description" content="यह डोमेन बामरला गांव (बाड़मेर) के नाम पर सुरक्षित रखा गया है। वेबसाइट निर्माणधीन है। जरूरी कार्य हेतु संपर्क करें: विकास कुमार (+91 8529326036)">
+    <meta property="og:image" content="https://www.bamarla.in/logo.png">
+    <meta property="og:image:secure_url" content="https://www.bamarla.in/logo.png">
+    <meta property="og:image:type" content="https://www.bamarla.in/logo.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="bamarla.in Portal">
+    <meta property="og:locale" content="hi_IN">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://bamarla.in/">
+    <meta name="twitter:title" content="bamarla.in | बामरला ग्राम पोर्टल (बाड़मेर, राजस्थान)">
+    <meta name="twitter:description" content="यह डोमेन बामरला गांव (बाड़मेर) के नाम पर रिज़र्व है। विकास कुमार: +91 8529326036">
+    <meta name="twitter:image" content="https://www.bamarla.in/logo.png">
+
+    <!-- Favicon & Icon fallback -->
+    <link rel="icon" type="image/png" href="https://www.bamarla.in/logo.png">
+    <link rel="apple-touch-icon" href="logo.png">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        gov: {
+                            navy: '#0b2545',
+                            blue: '#134074',
+                            saffron: '#ff9933',
+                            green: '#138808',
+                            lightbg: '#f4f6f9',
+                            border: '#cbd5e1'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Noto Sans Devanagari', 'Roboto', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Noto Sans Devanagari', 'Roboto', sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+
+        /* Formal Border Accents */
+        .gov-card {
+            background: #ffffff;
+            border: 1px solid #cbd5e1;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .gov-header-stripe {
+            background: linear-gradient(90deg, #ff9933 0%, #ffffff 50%, #138808 100%);
+        }
+
+        /* Print/Official Marquee animation */
+        .ticker-wrapper {
+            background-color: #0b2545;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between">
+
+    <!-- Top Flag Color Stripe -->
+    <div class="h-1.5 w-full gov-header-stripe"></div>
+
+    <!-- Top Small Gov Bar -->
+    <div class="bg-slate-100 border-b border-slate-200 text-slate-700 text-xs py-1.5 px-4 sm:px-8">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex items-center gap-2 font-medium">
+                <i class="fa-solid fa-building-columns text-gov-blue"></i>
+                <span>डिजिटल ग्राम पहल | बामरला (बाड़मेर, राजस्थान)</span>
+            </div>
+            <div class="flex items-center gap-4 text-slate-600">
+                <span id="current-date"><i class="fa-regular fa-calendar-days text-xs mr-1"></i> Loading date...</span>
+                <span>|</span>
+                <span id="ist-clock"><i class="fa-regular fa-clock text-xs mr-1"></i> IST --:--</span>
+                <span>|</span>
+                <span class="font-semibold text-gov-navy">भाषा: हिंदी / English</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header Banner (Official Portal Style) -->
+    <header class="bg-white border-b-2 border-gov-navy py-4 px-4 sm:px-8 shadow-sm">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
+            
+            <!-- Logo and Title Block -->
+            <div class="flex items-center gap-4 text-center md:text-left">
+                <!-- Logo with fallback -->
+                <div class="w-16 h-16 sm:w-20 sm:h-20 bg-slate-50 border border-slate-300 rounded-md p-1 flex items-center justify-center shrink-0 shadow-inner overflow-hidden">
+                    <img src="logo.png" alt="Bamarla Village Logo" class="w-full h-full object-contain" onerror="this.onerror=null; this.parentNode.innerHTML='<div class=\'text-center text-gov-navy\'><i class=\'fa-solid fa-landmark text-3xl\'></i><span class=\'block text-[9px] font-bold uppercase mt-1\'>Bamarla</span></div>';">
+                </div>
+                <div>
+                    <div class="flex items-center justify-center md:justify-start gap-2">
+                        <h1 class="text-2xl sm:text-3xl font-extrabold text-gov-navy tracking-tight">bamarla.in</h1>
+                        <span class="bg-amber-100 text-amber-800 border border-amber-300 text-xs px-2.5 py-0.5 rounded font-medium">सुरक्षित (Reserved)</span>
+                    </div>
+                    <p class="text-sm sm:text-base text-slate-700 font-semibold mt-0.5">बामरला ग्राम पंचायत एवं डिजिटल सूचना पोर्टल</p>
+                    <p class="text-xs text-slate-500">तहसील व जिला: बाड़मेर, राज्य: राजस्थान (भारत)</p>
+                </div>
+            </div>
+
+            <!-- Emblem / Right Portal Notice -->
+            <div class="hidden lg:flex items-center gap-6 border-l border-slate-200 pl-6 text-slate-700 text-right">
+                <div>
+                    <div class="text-xs text-slate-500 uppercase tracking-wider font-semibold">आधिकारिक स्थिति</div>
+                    <div class="text-sm font-bold text-gov-navy">ग्राम डोमेन पोर्टल</div>
+                    <div class="text-xs text-emerald-700 font-medium mt-0.5"><i class="fa-solid fa-circle-check"></i> डोमेन सफलता पूर्वक पंजीकृत</div>
+                </div>
+                <div class="w-12 h-12 rounded-full bg-slate-100 border border-slate-300 flex items-center justify-center text-gov-navy text-xl">
+                    <i class="fa-solid fa-stamp"></i>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <!-- Marquee Notice Bar -->
+    <div class="ticker-wrapper py-2 px-4 border-b border-slate-800 text-xs sm:text-sm">
+        <div class="max-w-7xl mx-auto flex items-center">
+            <span class="bg-gov-saffron text-slate-950 font-bold px-2.5 py-0.5 rounded text-xs uppercase shrink-0 mr-3">सूचना / Notice</span>
+            <marquee behavior="scroll" direction="left" class="font-medium text-slate-100">
+                सूचना: यह डोमेन (bamarla.in) बामरला गांव (बाड़मेर) के नाम पर रिज़र्व रखा गया है। वर्तमान में वेबसाइट का निर्माण कार्य प्रगति पर है (Under Construction)। आवश्यक जानकारी के लिए संपर्क करें।
+            </marquee>
+        </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <main class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-8 py-8">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+
+            <!-- Left Main Column (2 Cols wide) -->
+            <div class="lg:col-span-2 space-y-6">
+
+                <!-- Official Announcement Card -->
+                <div class="gov-card rounded-lg p-6 sm:p-8 border-t-4 border-t-gov-navy">
+                    <div class="flex items-center gap-3 mb-4 border-b border-slate-200 pb-3">
+                        <i class="fa-solid fa-bullhorn text-2xl text-gov-saffron"></i>
+                        <div>
+                            <h2 class="text-xl sm:text-2xl font-bold text-gov-navy">आधिकारिक डोमेन सूचना (Official Domain Notice)</h2>
+                            <p class="text-xs text-slate-500">Domain Reservation Status & Project Update</p>
+                        </div>
+                    </div>
+
+                    <div class="space-y-4 text-slate-700 text-sm sm:text-base leading-relaxed">
+                        <div class="p-4 bg-amber-50 border-l-4 border-amber-500 text-amber-900 rounded-r-md">
+                            <p class="font-semibold text-base">
+                                <i class="fa-solid fa-shield-halved text-amber-600 mr-2"></i>
+                                यह डोमेन <span class="font-bold underline">bamarla.in</span> बामरला गांव (बाड़मेर, राजस्थान) के नाम पर सुरक्षित (Reserved) किया गया है।
+                            </p>
+                        </div>
+
+                        <p>
+                            यह वेबसाइट ग्राम बामरला के डिजिटल विकास, प्रशासनिक सूचनाओं और ग्रामवासियों की सुविधा के लिए आरक्षित की गई है। 
+                        </p>
+
+                        <!-- Development Progress Status Box -->
+                        <div class="bg-slate-50 border border-slate-200 rounded-lg p-4 mt-4">
+                            <div class="flex justify-between items-center mb-2">
+                                <span class="font-bold text-gov-navy text-sm flex items-center gap-2">
+                                    <i class="fa-solid fa-gear animate-spin text-gov-blue"></i>
+                                    वेबसाइट निर्माण कार्य प्रगति पर है (Under Construction)
+                                </span>
+                                <span class="text-xs font-bold text-slate-600 bg-slate-200 px-2 py-0.5 rounded">35% कार्य पूर्ण</span>
+                            </div>
+                            <div class="w-full bg-slate-200 rounded-full h-3 overflow-hidden">
+                                <div class="bg-gov-blue h-3 rounded-full w-1/3"></div>
+                            </div>
+                            <p class="text-xs text-slate-500 mt-2">
+                                बहुत जल्द इस पोर्टल पर गांव से जुड़ी सभी महत्वपूर्ण सेवाएं, सरकारी योजनाएं, पंचायत समाचार एवं डिजिटल सुविधाएं उपलब्ध कराई जाएंगी।
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Village Information Box -->
+                <div class="gov-card rounded-lg p-6 border-t-4 border-t-gov-saffron">
+                    <h3 class="text-lg font-bold text-gov-navy mb-4 border-b border-slate-200 pb-2 flex items-center gap-2">
+                        <i class="fa-solid fa-location-dot text-gov-saffron"></i>
+                        ग्राम बामरला - संक्षिप्त परिचय (Village Overview)
+                    </h3>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
+                        <div class="p-3 bg-slate-50 rounded border border-slate-200">
+                            <span class="text-xs text-slate-500 uppercase block font-semibold">गांव का नाम</span>
+                            <span class="font-bold text-slate-800 text-base">बामरला (Bamarla)</span>
+                        </div>
+                        <div class="p-3 bg-slate-50 rounded border border-slate-200">
+                            <span class="text-xs text-slate-500 uppercase block font-semibold">जिला / राज्य</span>
+                            <span class="font-bold text-slate-800 text-base">बाड़मेर, राजस्थान</span>
+                        </div>
+                        <div class="p-3 bg-slate-50 rounded border border-slate-200">
+                            <span class="text-xs text-slate-500 uppercase block font-semibold">वेब डोमेन</span>
+                            <span class="font-bold text-gov-blue font-mono">bamarla.in</span>
+                        </div>
+                        <div class="p-3 bg-slate-50 rounded border border-slate-200">
+                            <span class="text-xs text-slate-500 uppercase block font-semibold">उद्देश्य</span>
+                            <span class="font-bold text-slate-800">ग्राम डिजिटल पोर्टल एवं जनसेवा</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Right Sidebar Column (1 Col wide) -->
+            <div class="space-y-6">
+
+                <!-- Official Contact Box (Highlighted) -->
+                <div class="gov-card rounded-lg p-6 border-t-4 border-t-gov-green shadow-md">
+                    <div class="bg-gov-navy text-white -mx-6 -mt-6 p-4 rounded-t-sm mb-4">
+                        <h3 class="font-bold text-base flex items-center gap-2">
+                            <i class="fa-solid fa-address-card text-gov-saffron"></i>
+                            संपर्क प्रतिनिधि (Contact Officer)
+                        </h3>
+                        <p class="text-xs text-slate-300">जरूरी काम या पूछताछ के लिए</p>
+                    </div>
+
+                    <div class="space-y-4">
+                        <!-- Contact Person Name -->
+                        <div class="border-b border-slate-200 pb-3">
+                            <span class="text-xs text-slate-500 uppercase font-semibold">प्रभारी / Contact Person</span>
+                            <div class="text-xl font-bold text-gov-navy mt-0.5">विकास कुमार</div>
+                            <div class="text-xs text-slate-600 font-medium">Vikash Kumar</div>
+                        </div>
+
+                        <!-- Phone Number -->
+                        <div class="border-b border-slate-200 pb-3">
+                            <span class="text-xs text-slate-500 uppercase font-semibold">मोबाइल नंबर / Mobile</span>
+                            <div class="flex items-center justify-between mt-1">
+                                <span class="font-mono text-lg font-bold text-slate-800">+91 8529326036</span>
+                                <div class="flex gap-1">
+                                    <a href="tel:8529326036" class="bg-emerald-700 hover:bg-emerald-800 text-white text-xs px-2.5 py-1.5 rounded font-medium transition" title="कॉल करें">
+                                        <i class="fa-solid fa-phone"></i>
+                                    </a>
+                                    <button onclick="copyText('8529326036', 'फ़ोन नंबर कॉपी हो गया!')" class="bg-slate-200 hover:bg-slate-300 text-slate-700 text-xs px-2.5 py-1.5 rounded transition" title="नंबर कॉपी करें">
+                                        <i class="fa-regular fa-copy"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Email Address -->
+                        <div class="border-b border-slate-200 pb-3">
+                            <span class="text-xs text-slate-500 uppercase font-semibold">ईमेल आईडी / Email ID</span>
+                            <div class="mt-1">
+                                <div class="text-sm font-semibold text-slate-800 break-all font-mono">vikashkumar823981@gmail.com</div>
+                                <div class="flex gap-2 mt-2">
+                                    <a href="mailto:vikashkumar823981@gmail.com" class="flex-1 text-center bg-gov-blue hover:bg-gov-navy text-white text-xs py-1.5 rounded font-medium transition">
+                                        <i class="fa-solid fa-envelope"></i> मेल भेजें
+                                    </a>
+                                    <button onclick="copyText('vikashkumar823981@gmail.com', 'ईमेल कॉपी हो गया!')" class="bg-slate-200 hover:bg-slate-300 text-slate-700 text-xs px-2.5 py-1.5 rounded transition">
+                                        <i class="fa-regular fa-copy"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Info note -->
+                        <div class="bg-slate-50 p-3 rounded text-xs text-slate-600 border border-slate-200">
+                            <i class="fa-solid fa-circle-info text-gov-blue mr-1"></i>
+                            डोमेन से संबंधित किसी भी कार्य, सुझाव या जानकारी के लिए ऊपर दिए गए नंबर या ईमेल पर संपर्क कर सकते हैं।
+                        </div>
+
+                        <!-- Direct WhatsApp Action Button -->
+                        <a href="https://wa.me/918529326036?text=Hello%20Vikash%20Kumar,%20bamarla.in%20domain%20ke%20sambandh%20me%20jaankari" target="_blank" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-2.5 px-4 rounded text-sm flex items-center justify-center gap-2 shadow transition">
+                            <i class="fa-brands fa-whatsapp text-lg"></i>
+                            व्हाट्सएप पर मैसेज करें
+                        </a>
+
+                    </div>
+                </div>
+
+                <!-- Emergency / Quick Help Box -->
+                <div class="gov-card rounded-lg p-4 bg-amber-50/50 border-slate-300">
+                    <h4 class="font-bold text-xs uppercase tracking-wider text-amber-900 mb-2">महत्वपूर्ण नोट / Important Note</h4>
+                    <p class="text-xs text-slate-700 leading-normal">
+                        यह पोर्टल बामरला गांव (बाड़मेर) की पहचान के लिए स्थापित किया गया है। शीघ्र ही इस पर अधिकृत सेवाएं उपलब्ध होंगी।
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Official Government Style Footer -->
+    <footer class="bg-gov-navy text-white mt-12 border-t-4 border-gov-saffron">
+        
+        <!-- Upper Footer Link Strip -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-8 py-6 border-b border-slate-700 text-xs text-slate-300">
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-center sm:text-left">
+                <div>
+                    <h5 class="font-bold text-white text-sm mb-2">पोर्टल स्थिति</h5>
+                    <p>डोमेन: bamarla.in</p>
+                    <p>स्थिति: रिजर्व्ड एवं निर्माणधीन</p>
+                </div>
+                <div>
+                    <h5 class="font-bold text-white text-sm mb-2">स्थान</h5>
+                    <p>ग्राम: बामरला</p>
+                    <p>जिला: बाड़मेर (राजस्थान)</p>
+                </div>
+                <div>
+                    <h5 class="font-bold text-white text-sm mb-2">संपर्क सूत्र</h5>
+                    <p>विकास कुमार (+91 8529326036)</p>
+                    <p>vikashkumar823981@gmail.com</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Lower Copyright Strip -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-8 py-4 text-center text-xs text-slate-400 flex flex-col sm:flex-row items-center justify-between gap-2">
+            <div>
+                © <span id="year"></span> <strong>bamarla.in</strong> — बामरला ग्राम डिजिटल पोर्टल | सर्वाधिकार सुरक्षित
+            </div>
+            <div>
+                डिजिटल बाड़मेर पहल | Managed by <strong>Vikash Kumar</strong>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="fixed bottom-5 right-5 bg-slate-900 text-white border border-slate-700 px-4 py-2.5 rounded shadow-xl text-xs font-medium transform translate-y-20 opacity-0 transition-all duration-300 pointer-events-none flex items-center gap-2">
+        <i class="fa-solid fa-circle-check text-emerald-400"></i>
+        <span id="toast-text">कॉपी किया गया</span>
+    </div>
+
+    <!-- Scripts -->
+    <script>
+        // Set dynamic current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Dynamic Date & Clock
+        function updateDateTime() {
+            const now = new Date();
+            
+            // Format Date (Hindi / IST format)
+            const dateOptions = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'short', timeZone: 'Asia/Kolkata' };
+            document.getElementById('current-date').innerHTML = `<i class="fa-regular fa-calendar-days text-xs mr-1"></i> ` + now.toLocaleDateString('hi-IN', dateOptions);
+
+            // Format IST Clock
+            const timeOptions = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: true, timeZone: 'Asia/Kolkata' };
+            document.getElementById('ist-clock').innerHTML = `<i class="fa-regular fa-clock text-xs mr-1"></i> IST ` + now.toLocaleTimeString('en-US', timeOptions);
+        }
+
+        setInterval(updateDateTime, 1000);
+        updateDateTime();
+
+        // Simple Copy Helper
+        function copyText(text, message) {
+            const temp = document.createElement('textarea');
+            temp.value = text;
+            document.body.appendChild(temp);
+            temp.select();
+            document.execCommand('copy');
+            document.body.removeChild(temp);
+
+            showToast(message);
+        }
+
+        // Show Toast Notification
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            const toastText = document.getElementById('toast-text');
+            toastText.textContent = msg;
+
+            toast.classList.remove('translate-y-20', 'opacity-0');
+            toast.classList.add('translate-y-0', 'opacity-100');
+
+            setTimeout(() => {
+                toast.classList.remove('translate-y-0', 'opacity-100');
+                toast.classList.add('translate-y-20', 'opacity-0');
+            }, 3000);
+        }
+    </script>
+</body>
+</html>
